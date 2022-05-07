@@ -1,0 +1,7 @@
+School:
+ -name: "DPS"
+  principal: "someone"
+  Students:
+  -Rno: 1
+   name: "cookie"
+   marks : 69

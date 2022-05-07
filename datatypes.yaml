@@ -1,0 +1,57 @@
+
+#string variables
+myself: Cookie    
+
+fruit: "apple"
+
+job: 'Software Engineer'
+
+bio: |
+hey my name is cookie
+I am a very nice dude 
+
+# write a single line in multiple lines
+message:  >
+this will all 
+be in 
+one single line
+
+# same as 
+message:  this will all be in one single line
+
+number: 5473
+marks: 98.76
+booleanValue: No     # for no use N , n,false, False, FALSE
+# for yes use yes,y,Y
+
+
+#specify the datatype
+
+zero: !!int 0
+Positivenumber: !!int 45
+NegativeNum: !!int -56
+BinaryNum: !!int 0b110001
+OctalNum: !!int 06753 
+Hexa: !!int 0x8332
+commaValues: !!int 540_000 # 540,000
+exponential numbers: 6.023E43
+
+#floating point numbers
+
+marks: !!float 56.89
+infinity: !!float .infinity
+not a num: .nan
+
+
+ #null
+
+ surname: !!null Null # or null NULL ~
+ ~: this is a null key 
+
+ #dates and time 
+
+ date: !!timestamp 2002-12-14
+
+ date and time : !!timestamp 2001-12-15T02:59:43.1Z
+
+ india time : 2001-12-14t21:59:43.10-05:00  +5:30 

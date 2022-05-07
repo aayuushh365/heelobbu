@@ -1,0 +1,22 @@
+"apple" = "I am a red fruit"      # apple is the key and I am a red fruit is the value. just like dictionary in python
+1 : "this is Cookie's roll number"
+---
+
+# lists
+- apple
+- mango 
+- banana
+- Apple # both are diff things(yaml is case sensitive)
+
+---
+
+cities:       # this is a block
+  - New Delhi
+  - Mumbai
+  - gujrat 
+---
+cities: [New Delhi,Mumbai]
+---
+{mango: "yellow fruit", age:56}     
+...
+# use yamllint.com to check if yaml file is valid or not  
